@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+p.intro {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+p.message {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.links a,
+.back {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover,
+.back:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.back {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
